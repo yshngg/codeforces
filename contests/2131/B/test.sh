@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-diff --brief <(cat input | go run ./lever.go) <(cat ./output)
+diff --brief <(cat input | go run ./alternating_series.go) <(cat ./output)
 
 if [ $? -eq 1 ]
 then

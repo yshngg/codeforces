@@ -31,7 +31,5 @@ func main() {
 			fmt.Printf("%d ", array[i])
 		}
 		fmt.Printf("%d\n", array[arrayLength-1])
-
-		fmt.Printf("% v", array)
 	}
 }
